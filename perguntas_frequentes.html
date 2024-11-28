@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Drive</title>
+    <!-- CSS -->
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- JS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+    <header class="top-0 left-0 right-0 z-10 flex justify-between items-center" style="background-color: #343c44;">
+        <div class="text-white text-2xl flex items-center">
+            <h1>JS Drive</h1> <img src="img/logo.png" alt="logo" class=logo>
+        </div>
+        <nav>
+            <a href="index.html" class="nav-link">Início</a>
+            <a href="recursos.html" class="nav-link"">Recursos</a>
+        <a href=" perguntas_frequentes.html" class="nav-link">Perguntas Frequentes</a>
+            <a href="contato.html" class="nav-link">Contato</a>
+        </nav>
+    </header>
+
+    <div class="title_pf">
+        <h1><b>Perguntas Frequentes</b></h1>
+    </div>
+    <div class="pf">
+        <section>
+            <details>
+                <summary>O que é um Servidor NAS?</summary>
+                <h3 class="translation-container"
+                    style="font-family: 'TypoGraphica'; font-size: 30px; margin-top: 15px; margin-bottom: -5px; letter-spacing: 0.8px; text-align: center;">
+                    <span class="original-text">Network Attached Storage</span>
+                    <span class="translated-text">Armazenamento Conectado na Rede</span>
+                </h3>
+                <h2 style="font-family: 'TypoGraphica', sans-serif; font-size: 25px; margin-bottom: 10px; text-align:
+                    center; letter-spacing: 15px;">
+                    N A S</h2>
+                <p>
+                    É um dispositivo de armazenamento conectado à rede que
+                    permite
+                    que múltiplos usuários acessem e compartilhem arquivos de forma centralizada. Ideal para
+                    empresas e
+                    usuários
+                    domésticos que necessitam de um local seguro e acessível para armazenar grandes volumes de
+                    dados.
+                </p>
+            </details>
+
+            <details>
+                <summary>Quais são as vantagens de usar um NAS em comparação com outros tipos de armazenamento?
+                </summary>
+                <p>Um NAS oferece armazenamento centralizado acessível via rede, permitindo que vários dispositivos
+                    compartilhem e acessem arquivos simultaneamente.
+                    Ele é ideal para empresas e usuários domésticos que precisam de um armazenamento confiável, de fácil
+                    acesso e escalável. Além disso, um NAS permite backup automático, suporte a RAID para proteção de
+                    dados, e é mais eficiente em termos de custo e manutenção do que servidores tradicionais ou soluções
+                    baseadas em nuvem.</p>
+            </details>
+
+            <details>
+                <summary>O que é RAID?</summary>
+                <p>RAID (Redundant Array of Independent Disks) é uma tecnologia que combina múltiplos discos em um único
+                    sistema de armazenamento para melhorar a performance e/ou a redundância dos dados. Diferentes níveis
+                    de RAID oferecem benefícios como maior segurança ou desempenho, dependendo da configuração.</p>
+            </details>
+
+            <details>
+                <summary>Quais tipos de RAID são suportados e qual é o mais adequado?</summary>
+                <p class="aa">Os tipos mais comuns de RAID suportados por NAS são RAID 0, RAID 1, RAID 5, RAID 6 e RAID
+                    10. Abaixo uma pequena descrição de cada tipo de RAID: </p>
+
+                <p class="aa">- RAID 0 oferece desempenho melhorado, mas sem redundância;</p>
+                <p class="aa">- RAID 1 espelha os dados para maior segurança;</p>
+                <p class="aa">- RAID 5 e RAID 6 proporcionam um equilíbrio entre segurança e espaço disponível;</p>
+                <p class="aa">- RAID 10 combina espelhamento e distribuição de dados para alto desempenho e proteção.
+                </p>
+                <p>A escolha depende das suas necessidades de armazenamento e segurança.</p>
+            </details>
+
+            <details>
+                <summary>O que é hot swap e por que é importante?</summary>
+                <p>Hot swap é a capacidade de substituir discos rígidos defeituosos ou adicionar novos discos sem
+                    desligar o NAS. Isso é crucial para manter a continuidade do serviço, garantindo que o servidor
+                    continue funcionando mesmo durante a manutenção, além de minimizar o tempo de inatividade e o risco
+                    de perda de dados.</p>
+            </details>
+
+
+            <details>
+                <summary>Como o NAS garante a segurança dos dados?</summary>
+                <p>Um NAS pode garantir a segurança dos dados através de várias camadas de proteção, como criptografia
+                    de dados, suporte a RAID para redundância, backups automáticos, permissões de acesso personalizadas
+                    e firewalls integrados. Alguns modelos também oferecem detecção de invasões e integração com
+                    softwares antivírus.</p>
+            </details>
+
+
+            <details>
+                <summary>Quais são os requisitos de rede para um NAS?</summary>
+                <p>Para um desempenho ideal, uma rede local rápida é recomendada, geralmente com cabos Ethernet de pelo
+                    menos categoria 5e ou 6. A velocidade do NAS também depende do roteador ou switch usado. Para
+                    grandes volumes de dados ou múltiplos usuários simultâneos, uma conexão de 1 Gbps ou superior é
+                    preferível.</p>
+            </details>
+
+
+            <details>
+                <summary>Como configurar o acesso e gerenciar permissões do nosso NAS?</summary>
+                <p>No OMV, o gerenciamento de acesso e permissões é feito através de uma interface web fácil de usar.
+                    Você pode criar contas de usuários e grupos, atribuir permissões para pastas compartilhadas e
+                    configurar o acesso via diferentes protocolos, como SMB/CIFS, NFS e FTP. O OMV permite definir
+                    exatamente quais pastas cada usuário ou grupo pode acessar, além de controlar permissões de leitura,
+                    escrita e execução. Isso garante que apenas usuários autorizados tenham acesso aos dados
+                    importantes.</p>
+            </details>
+
+
+            <details>
+                <summary>Quais são as opções de backup e recuperação de desastres do nosso NAS?</summary>
+                <p>OMV oferece várias soluções de backup, incluindo a configuração de backups locais para dispositivos
+                    conectados, como HDs externos, e backups remotos para a nuvem ou outro NAS. O plugin "rsync" permite
+                    agendar backups automáticos de pastas específicas. OMV também suporta a criação de snapshots via o
+                    plugin "OpenZFS", que permite restaurar o sistema a um ponto anterior no tempo, facilitando a
+                    recuperação em caso de falhas ou corrupção de dados.</p>
+            </details>
+
+
+            <details>
+                <summary>O que é redundância de componentes e como ela é implementada em um NAS?</summary>
+                <p>Redundância de componentes refere-se à duplicação de hardware crítico (como fontes de alimentação,
+                    ventoinhas e unidades de disco) para garantir que o NAS continue operando em caso de falhas de
+                    hardware. Essa implementação varia conforme o modelo, mas muitos NAS corporativos possuem essa
+                    funcionalidade para minimizar o risco de falhas críticas.</p>
+            </details>
+
+
+            <details>
+                <summary>Como monitorar e manter um servidor NAS?</summary>
+                <p>OMV facilita o monitoramento do sistema com gráficos detalhados de uso de CPU, RAM, espaço em disco e
+                    temperatura dos componentes. A interface web permite verificar rapidamente o estado de saúde dos
+                    discos e configurar alertas para problemas, como falha de discos ou superaquecimento. Além disso,
+                    OMV oferece atualizações regulares de software e plugins, que podem ser facilmente instalados
+                    diretamente da interface. Manter o sistema atualizado e executar backups regulares faz parte das
+                    melhores práticas de manutenção.</p>
+            </details>
+        </section>
+    </div>
+
+    <div class="ajuda">
+        <p>
+            Caso tenha mais perguntas, <a href="./contato.html"><b>entre em
+                    contato</b></a>, estaremos à disposição para ajudar!
+        </p>
+    </div>
+
+    <footer class="bg-card text-card-foreground p-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between">
+            <div class="mb-4 md:mb-0" id="Footer-text">
+                <h2 class="text-lg font-semibold" style="margin-top: 20px; font-size: 22px; margin-bottom: 5px;">
+                    Contatos</h2>
+                <p class="text-muted-foreground" style="margin-right: 400px; margin-bottom: 15px;"><img class="icon" ;
+                        src="img/email.png"><b>Email:</b> jsdrive.ofc@gmail.com</p>
+                <p class="insta"><img class="icon" ; src="img/insta.png"><b>Instagram:</b> <a
+                        href="https://www.instagram.com/js_drive/">@js_drive</a></p>
+            </div>
+            <div id="Footer-links">
+                <h3 class="text-lg font-semibold"
+                    style="margin-top: 20px; font-size: 22px; margin-bottom: 5px; margin-left: -450px;">
+                    Links</h3>
+                <ul class="list-none p-0">
+                    <li><a href="index.html" class="Footer-links" ;
+                            style="text-decoration: none; margin-left: -450px;">Início</a></li>
+                    <li><a href="recursos.html" class="Footer-links" ;
+                            style="text-decoration: none; margin-left: -450px;">Recursos</a></li>
+                    <li><a href="perguntas_frequentes.html" class="Footer-links" ;
+                            style="text-decoration: none; margin-left: -450px;">Perguntas Frequentes</a>
+                    </li>
+                    <li><a href="contato.html" class="Footer-links" ;
+                            style="text-decoration: none; margin-left: -450px;">Contato</a></li>
+                </ul>
+            </div>
+            <div id="logo2" class="text-white text-2xl flex items-center">
+                <h1 class=logo2t>JS Drive</h1> <img src="img/logo.png" class=logo2>
+            </div>
+        </div>
+        <div class="copyright" style="margin-top: -20px;">
+            <p>&copy; 2024 JS Drive. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
